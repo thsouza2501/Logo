@@ -1,0 +1,8 @@
+to CIRCLE :SIZE
+repeat 360 [fd :SIZE rt 1]
+end
+
+to SQUARE :SIZE
+repeat 4 [fd :SIZE rt 90]
+end
+

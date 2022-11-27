@@ -1,0 +1,39 @@
+to LADDER100
+repeat 4[WHITE100 fd 100]
+end
+
+
+
+to PYRAMID100
+repeat 4[WHITE100 fd 100]
+rt 180 fd 100
+repeat 3[WHITE100 fd 100]
+end
+
+to REVLADDER100
+repeat 3[WHITE100 bk 100]
+end
+
+
+to ROW100
+repeat 3[WHITE100 rt 90 fd 100 lt 90] WHITE100
+end
+
+to START
+pu
+SETXY -300 300
+pd
+end
+
+to THICK
+fd 100 rt 90 fd 1 rt 90 fd 100 rt 180
+end
+
+to WHITE100
+repeat 100[THICK]
+end
+
+to WHITE40
+repeat 40[THICK]
+end
+

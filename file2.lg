@@ -1,0 +1,27 @@
+to position20
+rt 90 fd 20 lt 90
+end
+
+to RAY
+fd 100 bk 200 fd 100
+end
+
+to row10
+repeat 10 [square20 position20]
+end
+
+to square20
+repeat 4 [fd 20 rt 90]
+end
+
+to star6
+repeat 6 [RAY lt 60]
+end
+
+to step20
+fd 20
+rt 90
+fd 20
+lt 90
+end
+

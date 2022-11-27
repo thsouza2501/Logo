@@ -1,0 +1,17 @@
+to CIRCLE :SIZE
+repeat 360 [fd :SIZE rt 1]
+end
+
+to SQUARE :SIZE
+repeat 4 [fd :SIZE rt 90]
+end
+
+to THICK :SIZE
+fd :SIZE
+rt 90
+fd 1
+rt 90
+fd :SIZE
+rt 180
+end
+

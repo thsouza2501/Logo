@@ -1,0 +1,4 @@
+to POLYGON :CORNER
+repeat :CORNER [fd 50 rt 360/:CORNER]
+end
+

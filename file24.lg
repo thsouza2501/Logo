@@ -1,0 +1,6 @@
+to FULLHOUSE :SIZE
+repeat 5 [rt 90 fd :SIZE]
+lt 120
+repeat 2 [fd :SIZE lt 120]
+end
+

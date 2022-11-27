@@ -1,0 +1,16 @@
+to CIRCLE1
+repeat 360 [fd 1 rt 1]
+end
+
+to CIRCLE3
+repeat 360 [fd 3 rt 1]
+end
+
+to PATTERN1
+repeat 18 [CIRCLE1 rt 20]
+end
+
+to PATTERN3
+repeat 36 [CIRCLE3 rt 10]
+end
+

@@ -1,0 +1,12 @@
+to square100
+fd 100 rt 90 fd 100 rt 90 fd 100 rt 90 fd 100 rt 90
+end
+
+to square50
+fd 50 rt 90 fd 50 rt 90 fd 50 rt 90 fd 50 rt 90
+end
+
+to square75
+fd 75 rt 90 fd 75 rt 90 fd 75 rt 90 fd 75 rt 90
+end
+

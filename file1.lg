@@ -1,0 +1,24 @@
+to column30
+repeat 4 [square30 fd 30]
+end
+
+to position20
+rt 90 fd 20 lt 90
+end
+
+to position30
+fd 30
+end
+
+to row10
+repeat 10 [square20 position20]
+end
+
+to square20
+repeat 4 [fd 20 rt 90]
+end
+
+to square30
+repeat 4 [fd 30 rt 90]
+end
+

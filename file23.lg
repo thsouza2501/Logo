@@ -1,0 +1,4 @@
+to 6GON :SIZE
+repeat 6 [fd :SIZE rt 360/6]
+end
+

@@ -1,0 +1,4 @@
+to TRIANGLE :SIZE
+repeat 3 [fd :SIZE rt 120]
+end
+

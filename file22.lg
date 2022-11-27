@@ -1,0 +1,6 @@
+to 4SQUARE :SIZE
+repeat 2 [repeat 3 [fd :SIZE rt 90] fd :SIZE bk :SIZE rt 90]
+rt 180
+repeat 2 [repeat 3 [fd :SIZE rt 90] fd :SIZE bk :SIZE rt 90]
+end
+

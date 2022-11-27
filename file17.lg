@@ -1,0 +1,4 @@
+to SQUARE :SIZE
+repeat 4 [fd :SIZE rt 90]
+end
+

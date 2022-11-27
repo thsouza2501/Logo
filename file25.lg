@@ -1,0 +1,4 @@
+to POLY :CORNER :SIZE
+repeat :CORNER [fd :SIZE rt 360/:CORNER]
+end
+
